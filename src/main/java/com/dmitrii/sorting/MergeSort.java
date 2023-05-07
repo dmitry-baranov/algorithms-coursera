@@ -1,7 +1,5 @@
 package com.dmitrii.sorting;
 
-import java.util.Arrays;
-
 public class MergeSort {
 
     /*
