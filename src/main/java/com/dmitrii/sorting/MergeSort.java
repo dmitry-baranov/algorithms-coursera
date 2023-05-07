@@ -4,17 +4,10 @@ import java.util.Arrays;
 
 public class MergeSort {
 
-    public static void main(String[] args) {
-        int[] array = new int[]{5, 6, 1, 4, 8, 3, 2, 7};
-        System.out.println("Init array:" + Arrays.toString(array));
-        mergeSort(array, array.length);
-        System.out.println("Result array:" + Arrays.toString(array));
-    }
-
     /*
     Merge sort (Recursive method)
      */
-    public static void mergeSort(int[] array, int n) {
+    public void mergeSort(int[] array, int n) {
         if (n < 2) {
             return;
         }
