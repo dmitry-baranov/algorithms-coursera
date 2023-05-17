@@ -1,6 +1,6 @@
 package com.dmitrii.multiple;
 
-import java.util.*;
+import java.util.Stack;
 
 public class KaratsubaAlgorithm {
 
