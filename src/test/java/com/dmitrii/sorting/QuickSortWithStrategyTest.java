@@ -12,7 +12,7 @@ class QuickSortWithStrategyTest {
 
     @Test
     void sortByFirstElement() throws IOException {
-        InputStream inputStream = QuickSortFirstElementTest.class.getResourceAsStream("/QuickSortInput.txt");
+        InputStream inputStream = QuickSortWithStrategyTest.class.getResourceAsStream("/QuickSortInput.txt");
         int[] array = readFromInputStream(inputStream);
         QuickSortWithStrategy service = new QuickSortWithStrategy();
         Assertions.assertEquals(array[0], 2148);
@@ -25,7 +25,7 @@ class QuickSortWithStrategyTest {
 
     @Test
     void sortByLastElement() throws IOException {
-        InputStream inputStream = QuickSortFirstElementTest.class.getResourceAsStream("/QuickSortInput.txt");
+        InputStream inputStream = QuickSortWithStrategyTest.class.getResourceAsStream("/QuickSortInput.txt");
         int[] array = readFromInputStream(inputStream);
         QuickSortWithStrategy service = new QuickSortWithStrategy();
         Assertions.assertEquals(array[0], 2148);
@@ -38,7 +38,7 @@ class QuickSortWithStrategyTest {
 
     @Test
     void sortByMedianElement() throws IOException {
-        InputStream inputStream = QuickSortFirstElementTest.class.getResourceAsStream("/QuickSortInput.txt");
+        InputStream inputStream = QuickSortWithStrategyTest.class.getResourceAsStream("/QuickSortInput.txt");
         int[] array = readFromInputStream(inputStream);
         QuickSortWithStrategy service = new QuickSortWithStrategy();
         Assertions.assertEquals(array[0], 2148);
